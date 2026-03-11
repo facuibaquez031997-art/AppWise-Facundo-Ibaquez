@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Appwise</title>
+</head>
+<body>
+    <h1>Unete a la Comunidad Appwise</h1>
+    <form action="#">
+        <label for="Nombre">Nombre Completo:</label>
+        <input type="text" id="Nombre" placeholder="Ingrese su Nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="ingrese su Email" required>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" placeholder="Ingrese su Contraseña" required>
+        <label for="fechaNac">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNac" required>
+        <label for="Nivel">Nivel en Programación:</label>
+        <select name="Nivel en Programación" id="Nivel">
+            <option value="#">
+                Trainee (Recién empiezo)
+            </option>
+            <option value="#">
+                Junior
+            </option>
+            <option value="#">
+                Semi-Senior
+            </option>
+        </select>
+            <h3>¿Cuál es tu especialidad favorita?</h3>
+            <input type="radio" name="full-stack" id="frontend">
+            <label for="frontend">Frontend (Diseño e Interfaz)</label>
+            <input type="radio" name="full-stack" id="backend">
+            <label for="backend">Backend (Lógica y Bases de Datos)</label>
+            <input type="checkbox" required>
+            <label for="terminos">Acepto los Términos y condiciones</label>
+            <button type="submit">Crear Cuenta</button>
+    </form>
+</body>
+</html>
